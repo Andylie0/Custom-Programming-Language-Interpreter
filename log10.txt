@@ -1,0 +1,315 @@
+------EXE_STACK------
+(Ref(int) v;(new(v, 20);(Ref(Ref(int)) a;(new(a, v);(new(v, 30);print(rH(rH(a))))))))|
+------SYM_TABLE------
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+Ref(int) v|(new(v, 20);(Ref(Ref(int)) a;(new(a, v);(new(v, 30);print(rH(rH(a)))))))|
+------SYM_TABLE------
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+Ref(int) v|(new(v, 20);(Ref(Ref(int)) a;(new(a, v);(new(v, 30);print(rH(rH(a)))))))|
+------SYM_TABLE------
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+(new(v, 20);(Ref(Ref(int)) a;(new(a, v);(new(v, 30);print(rH(rH(a)))))))|
+------SYM_TABLE------
+v -> (0, int)
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+(new(v, 20);(Ref(Ref(int)) a;(new(a, v);(new(v, 30);print(rH(rH(a)))))))|
+------SYM_TABLE------
+v -> (0, int)
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+new(v, 20)|(Ref(Ref(int)) a;(new(a, v);(new(v, 30);print(rH(rH(a))))))|
+------SYM_TABLE------
+v -> (0, int)
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+new(v, 20)|(Ref(Ref(int)) a;(new(a, v);(new(v, 30);print(rH(rH(a))))))|
+------SYM_TABLE------
+v -> (0, int)
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+(Ref(Ref(int)) a;(new(a, v);(new(v, 30);print(rH(rH(a))))))|
+------SYM_TABLE------
+v -> (1, int)
+
+------OUT------
+
+------HEAP_TABLE------
+1 -> 20
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+(Ref(Ref(int)) a;(new(a, v);(new(v, 30);print(rH(rH(a))))))|
+------SYM_TABLE------
+v -> (1, int)
+
+------OUT------
+
+------HEAP_TABLE------
+1 -> 20
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+Ref(Ref(int)) a|(new(a, v);(new(v, 30);print(rH(rH(a)))))|
+------SYM_TABLE------
+v -> (1, int)
+
+------OUT------
+
+------HEAP_TABLE------
+1 -> 20
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+Ref(Ref(int)) a|(new(a, v);(new(v, 30);print(rH(rH(a)))))|
+------SYM_TABLE------
+v -> (1, int)
+
+------OUT------
+
+------HEAP_TABLE------
+1 -> 20
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+(new(a, v);(new(v, 30);print(rH(rH(a)))))|
+------SYM_TABLE------
+a -> (0, Ref(int))
+v -> (1, int)
+
+------OUT------
+
+------HEAP_TABLE------
+1 -> 20
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+(new(a, v);(new(v, 30);print(rH(rH(a)))))|
+------SYM_TABLE------
+a -> (0, Ref(int))
+v -> (1, int)
+
+------OUT------
+
+------HEAP_TABLE------
+1 -> 20
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+new(a, v)|(new(v, 30);print(rH(rH(a))))|
+------SYM_TABLE------
+a -> (0, Ref(int))
+v -> (1, int)
+
+------OUT------
+
+------HEAP_TABLE------
+1 -> 20
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+new(a, v)|(new(v, 30);print(rH(rH(a))))|
+------SYM_TABLE------
+a -> (0, Ref(int))
+v -> (1, int)
+
+------OUT------
+
+------HEAP_TABLE------
+1 -> 20
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+(new(v, 30);print(rH(rH(a))))|
+------SYM_TABLE------
+a -> (3, Ref(int))
+v -> (1, int)
+
+------OUT------
+
+------HEAP_TABLE------
+1 -> 20
+3 -> (1, int)
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+(new(v, 30);print(rH(rH(a))))|
+------SYM_TABLE------
+a -> (3, Ref(int))
+v -> (1, int)
+
+------OUT------
+
+------HEAP_TABLE------
+1 -> 20
+3 -> (1, int)
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+new(v, 30)|print(rH(rH(a)))|
+------SYM_TABLE------
+a -> (3, Ref(int))
+v -> (1, int)
+
+------OUT------
+
+------HEAP_TABLE------
+1 -> 20
+3 -> (1, int)
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+new(v, 30)|print(rH(rH(a)))|
+------SYM_TABLE------
+a -> (3, Ref(int))
+v -> (1, int)
+
+------OUT------
+
+------HEAP_TABLE------
+1 -> 20
+3 -> (1, int)
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+print(rH(rH(a)))|
+------SYM_TABLE------
+a -> (3, Ref(int))
+v -> (7, int)
+
+------OUT------
+
+------HEAP_TABLE------
+1 -> 20
+3 -> (1, int)
+7 -> 30
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+print(rH(rH(a)))|
+------SYM_TABLE------
+a -> (3, Ref(int))
+v -> (7, int)
+
+------OUT------
+
+------HEAP_TABLE------
+1 -> 20
+3 -> (1, int)
+7 -> 30
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+
+------SYM_TABLE------
+a -> (3, Ref(int))
+v -> (7, int)
+
+------OUT------
+20
+
+------HEAP_TABLE------
+1 -> 20
+3 -> (1, int)
+7 -> 30
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+
+------SYM_TABLE------
+a -> (3, Ref(int))
+v -> (7, int)
+
+------OUT------
+20
+
+------HEAP_TABLE------
+1 -> 20
+3 -> (1, int)
+7 -> 30
+
+------FILE_TABLE------
+
+

@@ -1,0 +1,317 @@
+------ID------
+3
+------EXE_STACK------
+(bool a;(int v;(a=true;(IF(a) THEN(v=2) ELSE(v=3);print(v)))))|
+------SYM_TABLE------
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------ID------
+3
+------EXE_STACK------
+bool a|(int v;(a=true;(IF(a) THEN(v=2) ELSE(v=3);print(v))))|
+------SYM_TABLE------
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------ID------
+3
+------EXE_STACK------
+bool a|(int v;(a=true;(IF(a) THEN(v=2) ELSE(v=3);print(v))))|
+------SYM_TABLE------
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------ID------
+3
+------EXE_STACK------
+(int v;(a=true;(IF(a) THEN(v=2) ELSE(v=3);print(v))))|
+------SYM_TABLE------
+a -> false
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------ID------
+3
+------EXE_STACK------
+(int v;(a=true;(IF(a) THEN(v=2) ELSE(v=3);print(v))))|
+------SYM_TABLE------
+a -> false
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------ID------
+3
+------EXE_STACK------
+int v|(a=true;(IF(a) THEN(v=2) ELSE(v=3);print(v)))|
+------SYM_TABLE------
+a -> false
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------ID------
+3
+------EXE_STACK------
+int v|(a=true;(IF(a) THEN(v=2) ELSE(v=3);print(v)))|
+------SYM_TABLE------
+a -> false
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------ID------
+3
+------EXE_STACK------
+(a=true;(IF(a) THEN(v=2) ELSE(v=3);print(v)))|
+------SYM_TABLE------
+a -> false
+v -> 0
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------ID------
+3
+------EXE_STACK------
+(a=true;(IF(a) THEN(v=2) ELSE(v=3);print(v)))|
+------SYM_TABLE------
+a -> false
+v -> 0
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------ID------
+3
+------EXE_STACK------
+a=true|(IF(a) THEN(v=2) ELSE(v=3);print(v))|
+------SYM_TABLE------
+a -> false
+v -> 0
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------ID------
+3
+------EXE_STACK------
+a=true|(IF(a) THEN(v=2) ELSE(v=3);print(v))|
+------SYM_TABLE------
+a -> false
+v -> 0
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------ID------
+3
+------EXE_STACK------
+(IF(a) THEN(v=2) ELSE(v=3);print(v))|
+------SYM_TABLE------
+a -> true
+v -> 0
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------ID------
+3
+------EXE_STACK------
+(IF(a) THEN(v=2) ELSE(v=3);print(v))|
+------SYM_TABLE------
+a -> true
+v -> 0
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------ID------
+3
+------EXE_STACK------
+IF(a) THEN(v=2) ELSE(v=3)|print(v)|
+------SYM_TABLE------
+a -> true
+v -> 0
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------ID------
+3
+------EXE_STACK------
+IF(a) THEN(v=2) ELSE(v=3)|print(v)|
+------SYM_TABLE------
+a -> true
+v -> 0
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------ID------
+3
+------EXE_STACK------
+v=2|print(v)|
+------SYM_TABLE------
+a -> true
+v -> 0
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------ID------
+3
+------EXE_STACK------
+v=2|print(v)|
+------SYM_TABLE------
+a -> true
+v -> 0
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------ID------
+3
+------EXE_STACK------
+print(v)|
+------SYM_TABLE------
+a -> true
+v -> 2
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------ID------
+3
+------EXE_STACK------
+print(v)|
+------SYM_TABLE------
+a -> true
+v -> 2
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------ID------
+3
+------EXE_STACK------
+
+------SYM_TABLE------
+a -> true
+v -> 2
+
+------OUT------
+2
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------ID------
+2
+------EXE_STACK------
+(bool a;(int v;(a=true;(IF(a) THEN(v=2) ELSE(v=3);print(v)))))|
+------SYM_TABLE------
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------ID------
+1
+------EXE_STACK------
+(bool a;(int v;(a=true;(IF(a) THEN(v=2) ELSE(v=3);print(v)))))|
+------SYM_TABLE------
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+

@@ -1,0 +1,247 @@
+------EXE_STACK------
+(Ref(int) v;(new(v, 20);(print(rH(v));(wH(v,30);print(rH(v)+5)))))|
+------SYM_TABLE------
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+Ref(int) v|(new(v, 20);(print(rH(v));(wH(v,30);print(rH(v)+5))))|
+------SYM_TABLE------
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+Ref(int) v|(new(v, 20);(print(rH(v));(wH(v,30);print(rH(v)+5))))|
+------SYM_TABLE------
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+(new(v, 20);(print(rH(v));(wH(v,30);print(rH(v)+5))))|
+------SYM_TABLE------
+v -> (0, int)
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+(new(v, 20);(print(rH(v));(wH(v,30);print(rH(v)+5))))|
+------SYM_TABLE------
+v -> (0, int)
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+new(v, 20)|(print(rH(v));(wH(v,30);print(rH(v)+5)))|
+------SYM_TABLE------
+v -> (0, int)
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+new(v, 20)|(print(rH(v));(wH(v,30);print(rH(v)+5)))|
+------SYM_TABLE------
+v -> (0, int)
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+(print(rH(v));(wH(v,30);print(rH(v)+5)))|
+------SYM_TABLE------
+v -> (1, int)
+
+------OUT------
+
+------HEAP_TABLE------
+1 -> 20
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+(print(rH(v));(wH(v,30);print(rH(v)+5)))|
+------SYM_TABLE------
+v -> (1, int)
+
+------OUT------
+
+------HEAP_TABLE------
+1 -> 20
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+print(rH(v))|(wH(v,30);print(rH(v)+5))|
+------SYM_TABLE------
+v -> (1, int)
+
+------OUT------
+
+------HEAP_TABLE------
+1 -> 20
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+print(rH(v))|(wH(v,30);print(rH(v)+5))|
+------SYM_TABLE------
+v -> (1, int)
+
+------OUT------
+
+------HEAP_TABLE------
+1 -> 20
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+(wH(v,30);print(rH(v)+5))|
+------SYM_TABLE------
+v -> (1, int)
+
+------OUT------
+20
+
+------HEAP_TABLE------
+1 -> 20
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+(wH(v,30);print(rH(v)+5))|
+------SYM_TABLE------
+v -> (1, int)
+
+------OUT------
+20
+
+------HEAP_TABLE------
+1 -> 20
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+wH(v,30)|print(rH(v)+5)|
+------SYM_TABLE------
+v -> (1, int)
+
+------OUT------
+20
+
+------HEAP_TABLE------
+1 -> 20
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+wH(v,30)|print(rH(v)+5)|
+------SYM_TABLE------
+v -> (1, int)
+
+------OUT------
+20
+
+------HEAP_TABLE------
+1 -> 20
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+print(rH(v)+5)|
+------SYM_TABLE------
+v -> (1, int)
+
+------OUT------
+20
+
+------HEAP_TABLE------
+1 -> 30
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+print(rH(v)+5)|
+------SYM_TABLE------
+v -> (1, int)
+
+------OUT------
+20
+
+------HEAP_TABLE------
+1 -> 30
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+
+------SYM_TABLE------
+v -> (1, int)
+
+------OUT------
+20
+35
+
+------HEAP_TABLE------
+1 -> 30
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+
+------SYM_TABLE------
+v -> (1, int)
+
+------OUT------
+20
+35
+
+------HEAP_TABLE------
+1 -> 30
+
+------FILE_TABLE------
+
+
